@@ -2102,7 +2102,7 @@ html[dir=ltr] .client-reviews .item .icon {
   border-radius: 25px;
   background-color: transparent;
   color: #808080;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   transition: all 0.3s ease-in-out;
 }
@@ -2138,6 +2138,7 @@ html[dir=ltr] .client-reviews .item .icon {
 }
 .packages-table th {
   border-block: none;
+  padding: 20px;
 }
 .packages-table tbody tr:first-of-type td {
   background-color: #f8f8f8;
@@ -2158,15 +2159,15 @@ html[dir=ltr] .client-reviews .item .icon {
   gap: 30px;
 }
 .package-head i {
-  font-size: 40px;
+  font-size: 36px;
   color: #044a86;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .package-head h3 {
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 500;
   color: #000000;
   margin: 0;
 }
@@ -2180,22 +2181,23 @@ html[dir=ltr] .client-reviews .item .icon {
   gap: 20px;
 }
 .tbody-head .package-price {
-  font-size: 32px;
-  font-weight: 800;
+  font-size: 24px;
+  font-weight: 700;
   color: #044a86;
 }
 
 .package-btn {
-  width: 212px;
-  height: 60px;
+  width: 190px;
+  height: 50px;
   border-radius: 30px;
   background-color: #044a86;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
   transition: all ease-in-out 0.3s;
 }
 .package-btn:hover {
@@ -2204,7 +2206,7 @@ html[dir=ltr] .client-reviews .item .icon {
 }
 
 .package-info-head {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.75;
   color: #044a86;
@@ -2212,7 +2214,7 @@ html[dir=ltr] .client-reviews .item .icon {
 }
 
 .package-info-body {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   color: #000000;
   line-height: 1.5;

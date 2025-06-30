@@ -33,7 +33,7 @@
     border-radius: 25px;
     background-color: transparent;
     color: #808080;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     transition: all 0.3s ease-in-out;
     &.active {
@@ -67,6 +67,7 @@
   }
   th {
     border-block: none;
+    padding: 20px;
   }
   tbody {
     tr {
@@ -97,15 +98,15 @@
   flex-direction: column;
   gap: 30px;
   i {
-    font-size: 40px;
+    font-size: 36px;
     color: #044a86;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   h3 {
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 500;
     color: #000000;
     margin: 0;
   }
@@ -120,23 +121,24 @@
   gap: 20px;
 
   .package-price {
-    font-size: 32px;
-    font-weight: 800;
+    font-size: 24px;
+    font-weight: 700;
     color: #044a86;
   }
 }
 
 .package-btn {
-  width: 212px;
-  height: 60px;
+  width: 190px;
+  height: 50px;
   border-radius: 30px;
   background-color: #044a86;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
   transition: all ease-in-out 0.3s;
   &:hover {
     background-color: #82a5c3;
@@ -145,14 +147,14 @@
 }
 
 .package-info-head {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.75;
   color: #044a86;
   margin: 0;
 }
 .package-info-body {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   color: #000000;
   line-height: 1.5;
